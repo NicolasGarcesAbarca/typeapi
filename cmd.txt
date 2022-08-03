@@ -1,0 +1,6 @@
+npm init -y
+npm run tsc -- --init
+npm install express -E
+npm install @types/express -D
+//nodemon for ts
+npm install ts-node-dev -D
