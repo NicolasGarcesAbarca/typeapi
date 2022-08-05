@@ -9,11 +9,16 @@ npm install express -E
 npm install @types/express -D
 //nodemon for ts (compile and run)
 npm install ts-node-dev -D
+
 //prisma orm
 npm install prisma -D
 npx prisma init
+//needed for every nuke :)
 npx prisma migrate dev --name choose_name
 //in case of docker use
+
+//linter for TS
+npm install ts-standard -D
 
 //after you clone the repo you have to install the dependencies!
 //node_modules is included in the docker image so vscode can find the dependencies 
