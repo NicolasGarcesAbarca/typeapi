@@ -15,7 +15,6 @@ npm install prisma -D
 npx prisma init
 //needed for every nuke :)
 npx prisma migrate dev --name choose_name
-//in case of docker use
 
 //linter for TS
 npm install ts-standard -D
